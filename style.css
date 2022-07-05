@@ -1,0 +1,31 @@
+header {
+  font-weight: 600;
+  font-size: 2em;
+  text-align: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196f3;
+}
+.grid-item {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+.tiles {
+  border-radius: 120px;
+  border: 0px;
+  background-color: white;
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 50px;
+  width: 120px;
+  height: 120px;
+}
+
+#score {
+  text-align: center !important;
+  font-size: 3em;
+}

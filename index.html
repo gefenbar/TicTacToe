@@ -1,50 +1,53 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>Tic Tac Toe</title>
-  </head>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Tic Tac Toe</title>
+</head>
+
+<body>
   <header>
     <h1>Tic Tac Toe</h1>
-    <hr />
+    <hr>
   </header>
-  <body>
-    <div id="score"> X vs O
+  <div id="score"> X vs O
+  </div>
+  <div class="grid-container">
+    <div class="grid-item">
+      <button type="button" name="0" id="zero" class="tiles" onclick="mark(this)">-</button>
     </div>
-    <div class="grid-container">
-      <div class="grid-item">
-        <button id="0" class="tiles" onclick="mark(this)">-</button>
-      </div>
-      <div class="grid-item">
-        <button id="1" class="tiles" onclick="mark(this)">-</button>
-      </div>
-      <div class="grid-item">
-        <button id="2" class="tiles" onclick="mark(this)">-</button>
-      </div>
-      <div class="grid-item">
-        <button id="3" class="tiles" onclick="mark(this)">-</button>
-      </div>
-      <div class="grid-item">
-        <button id="4" class="tiles" onclick="mark(this)">-</button>
-      </div>
-      <div class="grid-item">
-        <button id="5" class="tiles" onclick="mark(this)">-</button>
-      </div>
-      <div class="grid-item">
-        <button id="6" class="tiles" onclick="mark(this)">-</button>
-      </div>
-      <div class="grid-item">
-        <button id="7" class="tiles" onclick="mark(this)">-</button>
-      </div>
-      <div class="grid-item">
-        <button id="8" class="tiles" onclick="mark(this)">-</button>
-      </div>
+    <div class="grid-item">
+      <button type="button" name="1" id="one" class="tiles" onclick="mark(this)">-</button>
     </div>
-    <script type="text/javascript" src="script.js"></script>
-  </body>
+    <div class="grid-item">
+      <button type="button" name="2" id="two" class="tiles" onclick="mark(this)">-</button>
+    </div>
+    <div class="grid-item">
+      <button type="button" name="3" id="three" class="tiles" onclick="mark(this)">-</button>
+    </div>
+    <div class="grid-item">
+      <button type="button" name="4" id="four" class="tiles" onclick="mark(this)">-</button>
+    </div>
+    <div class="grid-item">
+      <button type="button" name="5" id="five" class="tiles" onclick="mark(this)">-</button>
+    </div>
+    <div class="grid-item">
+      <button type="button" name="6"  id="six" class="tiles" onclick="mark(this)">-</button>
+    </div>
+    <div class="grid-item">
+      <button type="button" name="7" id="seven" class="tiles" onclick="mark(this)">-</button>
+    </div>
+    <div class="grid-item">
+      <button type="button" name="8" id="eight" class="tiles" onclick="mark(this)">-</button>
+    </div>
+  </div>
   <footer>
-    <hr />
+    <hr>
   </footer>
+  <script src="script.js"></script>
+</body>
+
 </html>
